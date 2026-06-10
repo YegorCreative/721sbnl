@@ -682,13 +682,13 @@ footer {
 
 .gallery-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
 }
 
 .gallery-img {
     width: 100%;
-    height: 400px;
+    height: 320px;
     object-fit: cover;
     border-radius: 12px;
     border: 1px solid var(--glass-border);
@@ -789,11 +789,11 @@ footer {
     }
     
     .gallery-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
     }
     
     .gallery-img {
-        height: 300px;
+        height: 260px;
     }
 
     .about-gallery {
